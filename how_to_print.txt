@@ -1,0 +1,17 @@
+Design with openSCAD export as STL
+
+login: 3dprint
+
+open stl file with _____.
+
+Be sure units are correct (mm, probably).
+
+process the STL to create cmb (?) layer file.
+
+Add to pack.
+
+Look at the substrate for a fresh spot, move objects onto clean spot on the
+substrate.  Be sure the numbered ones will go linearly (cyclically) without
+intersecting or traveling too far.
+
+Print!
