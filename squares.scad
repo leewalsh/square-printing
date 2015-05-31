@@ -74,7 +74,11 @@ module four_posts(alt=1){
 
 spacing = 1.25*s; // the spacing between particles
 
+difference(){
 union(){ base(); postpair();}
+translate([0,0,0])
+cylinder(h=t, d=s/2);
+}
 
 translate([spacing, 0, 0])
 union(){ base(); one_rail();}
