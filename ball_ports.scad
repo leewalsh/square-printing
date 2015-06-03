@@ -1,6 +1,6 @@
 r = 2.03/2;  // radius of sphere
 pad = 1;     // padding size
-lap = .1;    // overlap (to ensure union, difference don't get confused)
+lap = 1e-4;    // overlap (to ensure union, difference don't get confused)
 
 // The steel balls with diameter .080" = 2.03 mm fit snugly into a hole with
 // radius r + gap for gap = [ 0.10, 0.15, 0.20 ]; tested at [-0.2:0.05:0.5]
